@@ -45,12 +45,23 @@ nav ul li a:hover {
 /* End of Banner and Navigation */
 
 /* About */
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+
+.aboutus{
+    background-color: firebrick; 
+    color: white; 
+    text-align: center;
+    font-size: 50px;
+    padding: 1px; 
+}
+
 .info{
     color: white;
 }
 
 /* End of About */
-
-h1{
-    color:firebrick;
-}
