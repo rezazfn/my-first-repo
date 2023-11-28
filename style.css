@@ -1,6 +1,4 @@
-* {
-    font-family: 'Anton';
-}
+
 
 body{
     background-color: black;
@@ -12,6 +10,7 @@ body{
 }
 
 nav{
+    font-family: 'Anton';
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -43,6 +42,16 @@ nav ul li a:hover {
 }
 
 /* End of Banner and Navigation */
+
+/* Footer */
+.email{
+    color: firebrick;
+    font-family: Arial, sans-serif;
+
+}
+
+/* End of Footer */
+
 
 /* About */
 body {
