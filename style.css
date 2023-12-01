@@ -188,21 +188,67 @@ a:hover{
 
 
 /* Catalogue */
-.products1, .products2,.products3{
+.products{
     background-color: firebrick;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    padding: 10px;
+    padding-bottom: 35px;
 }
 
 .product {
-    width: 350px;
-    height: 350px;
+    width: 380px;
+    height: 380px;
     cursor: pointer;
 
 }
 
+.product:hover{
+    transform: scale(1.2);
+}
 
+.productinfo{
+    font-size: 20px;
+    font-family: Anton;
+    padding-right: 10px;
+    color: white;
+}
 
 /* End of Catalogue */
+
+/* Discography */
+.container1{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: firebrick;
+    height: 600px;
+    padding-bottom: 50px;
+}
+
+
+.latest{
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 50px;
+    padding-left: 50px;
+    height:500px;
+    max-width: 100%;
+    margin-right: 10px;
+}
+
+.box{
+    text-align: center;
+    padding-right: 100px;
+}
+
+.outnow{
+    font-family: Anton;
+    font-size: 50px;
+}
+
+.available{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+/* End of Discography */
