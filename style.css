@@ -41,6 +41,17 @@ nav ul li a:hover {
 
 }
 
+
+@media (max-width: 700px) {
+    nav ul li a {
+        font-size: 15px ;
+    }
+
+    nav ul li a:hover{
+        font-size: 15px;
+    }
+}
+
 .banner{
     display: flex;
     justify-content: center; 
@@ -101,6 +112,10 @@ body {
     padding-top: 55px;
 }
 
+.member:hover{
+    transform: scale(1.2);
+}
+
 .membernames{
     display: flex;
     justify-content: space-around;
@@ -141,31 +156,70 @@ a:hover{
     font-size: 35px;
     
 }
+
+@media (max-width: 1000px) {
+    .aboutusbanner{
+        width: auto;
+    }
+
+    .info{
+        font-size: 20px;
+    }
+
+    .memberinfo {
+        font-size: 15px;
+        text-align: center;
+    }
+
+    .members {
+        height: 250px;
+
+    }
+
+    .contact {
+        font-size: 25px;
+    }
+}
+
 /* End of About */
 
 /* Upcoming Concerts */
-.concert{
+.upcoming {
+    background-image: url("concert.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* .concert{
+    border: 2px fuchsia solid;
     display: flex;
     justify-content: center; 
     align-items: center; 
     max-width: 100%;
     height: 800;
     display: block;
-}
+} */
 
 .overlay {
-    position: absolute;
-    top: 80%;
+    position: relative;
+    z-index: 10;
+    /* top: 80%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%); */
     background-color: white;
     color: black;
     padding: 25px 25px;
     cursor: pointer;
     font-size: 40px;
     font-family: Anton;
-    border-bottom:50%;
-    transition: 0.5;
+    border: 0;
+    height: 110px;
+    transition: all 0.5;
 
 }
 
@@ -173,8 +227,8 @@ a:hover{
     background-color: white;
     color: firebrick;
     font-size: 45px;
-    transition: 0.3s;
-    border: 5px;
+    transition: all 0.5s;
+    border-radius: 25px;
 }
 
 
@@ -189,9 +243,17 @@ a:hover{
     font-family: Anton;
 }
 
+.prevconcerts{
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.prev{
+    padding-bottom: 30px;
+}
 /* End of Previous Concerts */
-
-
 
 
 /* Catalogue */
@@ -284,8 +346,8 @@ a:hover{
     position: absolute;
     inset: 0;
     opacity: 0;
-    transition: 200ms opacity ease-in-out;
-    transition-delay: 200ms;
+    transition: 300ms opacity ease-in-out;
+    transition-delay: 300ms;
   }
   
   .slide > img {
@@ -312,32 +374,27 @@ a:hover{
     transform: translateY(-50%);
     color: rgba(255, 255, 255, .5);
     cursor: pointer;
-    border-radius: .25rem;
     padding: 0 .5rem;
     background-color: rgba(0, 0, 0, .1);
   }
   
   .carousel-button:hover,
   .carousel-button:focus {
-    color: white;
+    color: firebrick;
     background-color: rgba(0, 0, 0, .2);
   }
   
-  .carousel-button:focus {
-    outline: 1px solid black;
-  }
   
   .carousel-button.prev {
     left: 1rem;
-    color: firebrick;
   }
   
   .carousel-button.next {
     right: 1rem;
-    color: firebrick;
   }
-
   .albums{
+    display: flex;
+    flex-wrap: wrap;
     width: 100%;
     height: 600px;
   }
@@ -349,4 +406,44 @@ a:hover{
     font-size: 60px;
     text-align: center;
   }
+
+  @media (max-width: 600px) {
+    .container1 {
+      flex-direction: column;
+      height: auto;
+    }
+  
+    .latest {
+      padding: 20px;
+    }
+  
+    .box {
+      padding-right: 20px; 
+    }
+  
+    .outnow {
+      font-size: 60px;
+    }
+  
+    .available {
+      font-size: 16px;
+    }
+  
+    .carousel {
+      height: 400px; 
+    }
+  
+    .carousel-button {
+      font-size: 3rem; 
+    }
+  
+    .albums {
+      height: auto;
+    }
+  
+    .songtype {
+      font-size: 40px; 
+    }
+  }
 /* End of Discography */
+
