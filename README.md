@@ -1,52 +1,30 @@
 # my-first-repo
-my first repository
 
-Your Project's Name
-One or two paragraphs providing an overview of your project. Tell us about your project.
-
-Essentially, this part is your sales pitch.
+Chase Atlantic's Website
+This project (Assignment 1), 
+This project is for ID Assignment 1, it tests our knowledge in using html, css, and js. We were tasked to create an official website for a band/company. This is my first time creating my own website with animations and all from scratch, unlike figma/google sites/wix. It was extremely difficult as it is all new to me so I had trouble submitting this on time.
 
 Design Process
-Provide us insights about your design process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
+THe main colours are black, red, and white to represent the band's iconic colour scheme which lets fans easily recognise the website. This website is for existing fans to stay updated and new fans that are interested to learn more about the band. I made this website to compile all information of Chase Atlantic to make it easier to access like having all their socials, booking info, shop, and music all in one website. To achieve this goal, I had to find all these information and make different pages for different categories. Also, there are many animations for hovering which indicates where users are clicking. 
 
-In particular, as part of this section we recommend that you provide a list of User Stories, with the following general structure:
 
-As a user type, I want to perform an action, so that I can achieve a goal.
-This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. These files should themselves either be included as a pdf file in the project itself (in an separate directory) Include the Adobe XD wireframe as a folder. You can include the XD share url.
+My wireframe https://www.figma.com/file/lj0hy5dXO4eH3rhWWn8wLf/ID-Assignment-1-Wireframe?type=design&t=XKlb84endL8e5mrC-6
 
 Features
-In this section, you should go over the different parts of your project, and describe each in a sentence or so.
+5 Pages - Home, About, Bookings/Tickets, Merch, Discography
+There is a navigator bar at the top of every page for users to easily access different pages. There is also a footer under every page that has an input allowing users to fill in their email to recieve updates. There is also links to all their socials and platforms in the about page to learn more about the band. There is also a announcement to let users know if there are any upcoming concerts and a remind me button at the tickets page for users to stay updated of any upcoming concerts. The merch page displays all their products with pricings. The discography page announces the latest album/single released by the band and there is a image carousel with all their previous songs they have released.
 
-Existing Features
-Feature 1 - allows users X to achieve Y, by having them fill out Z
-...
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
+Some features I would like to add is a music player and pop up messages after clicking things.
 
-Features Left to Implement
-Another feature idea
 Technologies Used
-In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
+I used extensions like prettier, golive and autosave to make my coding easier and more efficient
+I also used ChatGPT for advice and to help with some bugs when I was stuck. https://chat.openai.com/
 
-JQuery
-The project uses JQuery to simplify DOM manipulation.
-Testing
-For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
+Some bugs I discovered was the responsive media for mobile viewing not aligning properly and the button in the tickets page not positioning correctly in mobile views. During the process, there were many small errors and mistakes made.
 
-Contact form:
-Go to the "Contact Us" page
-Try to submit the empty form and verify that an error message about the required fields appears
-Try to submit the form with an invalid email address and verify that a relevant error message appears
-Try to submit the form with all inputs valid and verify that a success message appears.
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
+Credits and inspiration for the Image Carousell from https://github.com/WebDevSimplified/js-css-carousel/blob/main/index.html. I also watched youtube tutorials for the navigation, css, and javascript.
 
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
+The text for the About section, the previous concerts were obtained from Songkick
 
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
-
-Credits
-Content
-The text for section Y was copied from the Wikipedia article Z
-Media
-The photos used in this site were obtained from ...
-Acknowledgements
-I received inspiration for this project from X
+Photos used were obtained from Pinterest, Spotify (Screenshots), Official Chase Atlantic Website, Google
+I was inspired by the band, official Chase Atlantic website, and the Veeps website.
